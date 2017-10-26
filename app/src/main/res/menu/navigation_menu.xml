@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ navigation_menu.xml
+  ~ StokBarang
+  ~
+  ~ Created by I Nengah Januartha on 10/18/17 8:28 AM
+  ~ Copyright (c) 2017 I Nengah Januartha. All right reserved.
+  ~
+  ~ Last modified 10/18/17 8:28 AM
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home" android:title="@string/menu_home" android:icon="@mipmap/ic_home_black_24dp" android:checkable="true"></item>
+    <item android:id="@+id/nav_sales" android:title="@string/menu_sales" android:icon="@mipmap/ic_assignment_black_24dp" android:checkable="true"></item>
+    <item android:id="@+id/nav_checkout" android:title="@string/menu_checkout" android:icon="@mipmap/ic_shopping_cart_black_24dp" android:checkable="true"></item>
+    <item android:id="@+id/nav_insert" android:title="@string/menu_insert" android:icon="@mipmap/ic_create_black_24dp" android:checkable="true"></item>
+</menu>

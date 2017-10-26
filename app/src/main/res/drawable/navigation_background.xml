@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ navigation_background.xml
+  ~ StokBarang
+  ~
+  ~ Created by I Nengah Januartha on 10/23/17 10:37 PM
+  ~ Copyright (c) 2017 I Nengah Januartha. All right reserved.
+  ~
+  ~ Last modified 10/23/17 10:37 PM
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--item android:state_checked="true" android:drawable="@color/colorAccentLight"/>
+    <item android:state_activated="true" android:drawable="@color/colorAccentLight"/>
+    <item android:state_pressed="true" android:drawable="@color/colorAccentLight"/>
+    <item android:state_focused="true" android:drawable="@color/colorAccentLight"/>
+    <item android:drawable="@color/transparent"/-->
+    <!--item android:state_checked="true" android:drawable="@color/colorBlack"/>
+    <item android:state_activated="true" android:drawable="@color/colorBlack"/>
+    <item android:state_pressed="true" android:drawable="@color/colorBlack"/>
+    <item android:state_focused="true" android:drawable="@color/colorBlack"/>
+    <item android:drawable="@color/colorBlack"/-->
+</selector>

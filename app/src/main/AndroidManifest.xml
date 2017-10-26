@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ AndroidManifest.xml
+  ~ StokBarang
+  ~
+  ~ Created by I Nengah Januartha on 10/18/17 6:39 AM
+  ~ Copyright (c) 2017 I Nengah Januartha. All right reserved.
+  ~
+  ~ Last modified 10/18/17 6:39 AM
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.janumedia.app.stocksales">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_bag"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_bag_round"
+        android:supportsRtl="true"
+        android:theme="@style/SplashTheme">
+        <activity android:name="com.janumedia.app.stocksales.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="userPortrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

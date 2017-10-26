@@ -1,0 +1,169 @@
+<!--
+  ~ fragment_home.xml
+  ~ StokBarang
+  ~
+  ~ Created by I Nengah Januartha on 10/18/17 1:09 PM
+  ~ Copyright (c) 2017 I Nengah Januartha. All right reserved.
+  ~
+  ~ Last modified 10/18/17 1:09 PM
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.janumedia.app.stocksales.HomeFragment">
+
+    <include layout="@layout/no_stok"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/spinner_type"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:prompt="@string/prompt_size"
+            android:theme="@style/ThemeSpinner">
+        </android.support.v7.widget.AppCompatSpinner>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/spinner_name"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:prompt="@string/prompt_size"
+            android:theme="@style/ThemeSpinner">
+        </android.support.v7.widget.AppCompatSpinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/button_container">
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimary"
+            android:text="Load"
+            android:onClick="onLoad"/>
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/row_header"
+        android:layout_marginTop="20dp"
+        android:visibility="visible">
+
+        <TableRow
+            android:background="@color/colorGreen">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_weight="4"
+                style="@style/ThemeTableRowItem"
+                android:textColor="@color/colorWhite"
+                android:clickable="true"
+                android:onClick="onShortByTheme"
+                android:text="@string/theme" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_weight="4"
+                style="@style/ThemeTableRowItem"
+                android:textColor="@color/colorWhite"
+                android:clickable="true"
+                android:onClick="onShortBySize"
+                android:text="@string/size" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_weight="3"
+                style="@style/ThemeTableRowItem"
+                android:textColor="@color/colorWhite"
+                android:clickable="true"
+                android:onClick="onShortByStock"
+                android:text="@string/stock" />
+
+        </TableRow>
+    </TableLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:id="@+id/row_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <!--TableRow
+                android:id="@+id/first_row">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_weight="4"
+                    style="@style/ThemeTableRowItem"
+                    android:id="@+id/first_row_textview"
+                    android:text="Tipe" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_weight="4"
+                    style="@style/ThemeTableRowItem"
+                    android:text="Motif" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_weight="3"
+                    style="@style/ThemeTableRowItem"
+                    android:text="Ukuran" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_weight="4"
+                    style="@style/ThemeTableRowItem"
+                    android:text="Tipe Panjaaaaang Sekali" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_weight="4"
+                    style="@style/ThemeTableRowItem"
+                    android:text="Motif Panjaaaaaaang Sekali" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_weight="3"
+                    style="@style/ThemeTableRowItem"
+                    android:text="Ukuran" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_weight="4"
+                    style="@style/ThemeTableRowItem"
+                    android:text="Last" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_weight="4"
+                    style="@style/ThemeTableRowItem"
+                    android:text="Motif" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_weight="3"
+                    style="@style/ThemeTableRowItem"
+                    android:text="Ukuran" />
+
+            </TableRow-->
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

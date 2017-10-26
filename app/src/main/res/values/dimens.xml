@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ dimens.xml
+  ~ StokBarang
+  ~
+  ~ Created by I Nengah Januartha on 10/19/17 8:24 PM
+  ~ Copyright (c) 2017 I Nengah Januartha. All right reserved.
+  ~
+  ~ Last modified 10/19/17 8:24 PM
+  -->
+
+<resources>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="nav_header_text_size">30sp</dimen>
+
+    <!-- remove spaces between navView header and first item -->
+    <!-- https://stackoverflow.com/a/34527645 -->
+    <dimen name="design_navigation_padding_top_default" xmlns:tools="http://schemas.android.com/tools" tools:override="true">0dp</dimen>
+    <dimen name="design_navigation_separator_vertical_padding" xmlns:tools="http://schemas.android.com/tools" tools:override="true">0dp</dimen>
+    <dimen name="design_navigation_padding_bottom" xmlns:tools="http://schemas.android.com/tools" tools:override="true">0dp</dimen>
+</resources>

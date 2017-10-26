@@ -1,0 +1,53 @@
+<!--
+  ~ strings.xml
+  ~ StokBarang
+  ~
+  ~ Created by I Nengah Januartha on 10/18/17 8:10 AM
+  ~ Copyright (c) 2017 I Nengah Januartha. All right reserved.
+  ~
+  ~ Last modified 10/18/17 8:10 AM
+  -->
+
+<resources>
+    <!-- applicationName -->
+    <string name="app_name">StockSales</string>
+
+    <!-- use in nav bar title -->
+    <string name="title_checkout">Checkout Stock</string>
+    <string name="title_insert">Insert Stock</string>
+    <string name="title_sales">Sales Report</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- use in menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_sales">Sales</string>
+    <string name="menu_checkout">Checkout</string>
+    <string name="menu_insert">Insert</string>
+
+    <!-- use in table stock / sales header -->
+    <string name="theme">Theme</string>
+    <string name="size">Size</string>
+    <string name="stock">Stock</string>
+    <string name="sales">Sales</string>
+
+    <!-- use in spinner prompt / hint -->
+    <string name="prompt_type">Select Type</string>
+    <string name="prompt_name">Select Name</string>
+    <string name="prompt_size">Select Size</string>
+    <string name="prompt_theme">Select Theme</string>
+
+    <!-- use in input text -->
+    <string name="input_type">Typed Type</string>
+    <string name="input_name">Typed Name</string>
+    <string name="input_size">Typed Size</string>
+    <string name="input_theme">Typed Theme</string>
+
+    <!-- use for toast messages -->
+    <string name="stock_inserted">New Stock Inserted!</string>
+    <string name="stock_updated">Stock Updated!</string>
+    <string name="stock_checkout">Checkout Successfully!</string>
+    <string name="stock_deleted">Stock Deleted!</string>
+
+</resources>

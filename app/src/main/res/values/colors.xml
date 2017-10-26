@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ colors.xml
+  ~ StokBarang
+  ~
+  ~ Created by I Nengah Januartha on 10/18/17 9:30 AM
+  ~ Copyright (c) 2017 I Nengah Januartha. All right reserved.
+  ~
+  ~ Last modified 10/18/17 9:30 AM
+  -->
+
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryLight">#dbe0ff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccentLight">#fcdde8</color>
+    <color name="colorGreen">#61c16d</color>
+    <color name="colorGreenLight">#b4d7b9</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="transparent">#00ffffff</color>
+</resources>

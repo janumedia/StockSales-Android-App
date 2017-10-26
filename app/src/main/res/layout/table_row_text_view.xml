@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ table_row_text_view.xml
+  ~ StokBarang
+  ~
+  ~ Created by I Nengah Januartha on 10/19/17 10:29 PM
+  ~ Copyright (c) 2017 I Nengah Januartha. All right reserved.
+  ~
+  ~ Last modified 10/19/17 10:29 PM
+  -->
+
+<android.support.v7.widget.AppCompatTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="4"
+    style="@style/ThemeTableRowItem">
+
+</android.support.v7.widget.AppCompatTextView>

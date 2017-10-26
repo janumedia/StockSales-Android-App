@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ table_row_view.xmlStokBarang
+  ~
+  ~ Created by I Nengah Januartha on 10/19/17 1:14 PM
+  ~ Copyright (c) 2017 I Nengah Januartha. All right reserved.
+  ~
+  ~ Last modified 10/19/17 1:14 PM
+  -->
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--android.support.v7.widget.AppCompatTextView
+        android:layout_weight="4"
+        style="@style/ThemeTableRowItem"
+        android:id="@+id/text_theme"
+        android:text="@string/theme" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_weight="4"
+        style="@style/ThemeTableRowItem"
+        android:id="@+id/text_size"
+        android:text="@string/size" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_weight="3"
+        style="@style/ThemeTableRowItem"
+        android:id="@+id/text_stock"
+        android:text="@string/stock" /-->
+
+</TableRow>
